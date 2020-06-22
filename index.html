@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/converter.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <main class="main">
+        <header class="header">
+            <h1 class="header__header">Konwerter walut</h1>
+        </header>
+        <div class="converter">
+            <form class="form js-form">
+                <p class="form__section">
+                    <label class="form__label" for="amount">Wpisz kwotę w PLN</label>
+                    <input class="form__field js-amount" name="amount" id="amount" type="number" min="0.01"
+                        step="0.01" required>
+                </p>
+                <p class="form__section">
+                    <label class="form__label" for="currency">Wybierz docelową walutę</label>
+                    <select class="form__field js-currency" name="currency" id="currency">
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </p>
+                <p>
+                    <button class="form__button">Przelicz</button>
+                </p>
+                <p class="form__result js-result"></p>
+                <p class="form__footer">Wg średnich kursów z dnia 19.06.2020, za: npb.pl</p>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">© Asia Meuś 2020</p>
+    </footer>
+</body>
+
+</html>
