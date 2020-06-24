@@ -1,7 +1,7 @@
 .main {
     max-width: 500px;
-    background-color: #2b2b2b;
+    background-color: hsla(0, 0%, 5%, 0.9);
+    background-blend-mode: multiply;
     padding: 20px 40px;
-    margin: 50px auto;
-    border: 1.5px solid #8d00eb;
+    margin: 100px auto;
 }
