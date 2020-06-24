@@ -4,7 +4,7 @@
 
 https://asiameus.github.io/currency-converter/
 
-![screen strony](img/screenshot.png)
+![screen strony](img/screenshot2.png)
 
 ## Description
 
