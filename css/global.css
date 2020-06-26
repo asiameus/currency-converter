@@ -12,6 +12,7 @@ html {
     background-size: cover;
     background-position: center;
     background-size: 2000px;
+    background-attachment: fixed;
     font-family: 'Source Sans Pro', sans-serif;
     color: #f3f3f3;
 }
